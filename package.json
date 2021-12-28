@@ -7,7 +7,7 @@
     "test": "jest",
     "client": "cd client && npm start",
     "dev": "concurrently \"ts-node index.ts\" \"npm run client\"",
-    "start": "ts-node-dev index.ts",
+    "start": "ts-node index.ts",
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build"
